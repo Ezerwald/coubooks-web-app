@@ -1,0 +1,72 @@
+
+
+body{
+    font-family: sans-serif;
+    background-color: #cbeeff;
+    margin: 0 auto;
+}
+
+.main-wrapper{
+    width: 60vw;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.round-container{
+    border-radius: 15px;
+}
+
+.blue-container{
+    background-color: #126f97;
+    color: white;
+}
+
+.white-container{
+    color: white;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+nav a {
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+@media (max-width: 600px) {
+    header {
+        flex-direction: column; /* Stack Logo and Nav vertically */
+        text-align: center;
+    }
+
+    ul {
+        justify-content: center; /* Center the links when stacked */
+        gap: 10px;               /* Tighten gap for small screens */
+    }
+}
