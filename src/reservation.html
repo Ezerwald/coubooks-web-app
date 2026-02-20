@@ -22,65 +22,72 @@
                 <ul>
                     <li><a href="index.html">Home</a></li>
                     <li><a href="courses.html">Courses</a></li>
-                    <li><a href="reservation.html"><em>Reservation></em></a></li>
+                    <li><a href="reservation.html"><em>Reservation</em></a></li>
                     <li><a href="about.html">About</a></li>
                 </ul>
             </nav>
         </header>
     </div>
 
-    <div class = "round-container white-container reservation-wizard">
-        <section class = "wizard-step">
-            <div class="step-header">
-                <h2>STEP 1: WHO ARE YOU</h2>
-                <h3>Please provide some info about you, so we can reach for the books you need...</h3>
-            </div>
-            <form>
-                <div class="form-group">
-                    <label for="phase"> Phase: </label>
-                    <select name="phase" id="phase">
-                        <option value="bachelor"> Bachelor </option>
-                        <option value="master"> Master </option>
-                    </select>
+    <div class = "main-section round-container white-container">
+        <div class="reservation-wizard">
+            <section class = "wizard-step">
+                <div class="step-header">
+                    <h1>STEP 1: WHO ARE YOU</h1>
+                    <h2>Please provide some info about you, so we can reach for the books you need...</h2>
                 </div>
-                <div class="form-group">
-                    <label for="email">Email:</label>
-                    <input type="email" id="email">
-                </div>
-            </form>
-        </section>
+                <form>
+                    <div class="form-group">
+                        <label for="phase"> Phase: </label>
+                        <select name="phase" id="phase">
+                            <option value="bachelor"> Bachelor </option>
+                            <option value="master"> Master </option>
+                        </select>
+                    </div>
+                    <br>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email">
+                    </div>
+                </form>
+            </section>
 
-        <section class = "wizard-step">
-            <div class="step-header">
-                <h2>STEP 2: WHAT BOOKS DO YOU NEED?</h2>
-                <h3>Select the books you whish to order...</h3>
-            </div>
-            <form>
-                <div class="form-group">
-                    <input type="checkbox" id="computer-networking-checkbox">
-                    <label for="computer-networking-checkbox">Computer networking: a top-down approach</label>
+            <section class = "wizard-step">
+                <div class="step-header">
+                    <h1>STEP 2: WHAT BOOKS DO YOU NEED?</h1>
+                    <h2>Select the books you whish to order...</h2>
                 </div>
-                <div class="form-group">
-                    <input type="checkbox" id="operating-systems-checkbox">
-                    <label for="operating-systems-checkbox">Operating systems</label>
-                </div>
-            </form>
-        </section>
+                <form>
+                    <div class="form-group">
+                        <div>
+                            <input type="checkbox" id="computer-networking-checkbox">
+                            <label for="computer-networking-checkbox">Computer networking: a top-down approach</label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div>
+                            <input type="checkbox" id="operating-systems-checkbox">
+                            <label for="operating-systems-checkbox">Operating systems</label>
+                        </div>
+                    </div>
+                </form>
+            </section>
 
-        <section class = "wizard-step">
-            <div class="step-header">
-                <h2>YOU HAVE ORDERED</h2>
-                <h3>Below you can find the list of books you have reserved.
-                    Once you confirm your reservation you can pick them up at our KD and pay at the desk</h3>
-            </div>
-            <form>
-                <ul>
-                    <li>Computer networking: a top-down approach</li>
-                </ul>
-                <br>
-                <button> Confirm Reservation </button>
-            </form>
-        </section>
+            <section class = "wizard-step">
+                <div class="step-header">
+                    <h1>YOU HAVE ORDERED</h1>
+                    <h2>Below you can find the list of books you have reserved.
+                        Once you confirm your reservation you can pick them up at our KD and pay at the desk</h2>
+                </div>
+                <form>
+                    <ul>
+                        <li>Computer networking: a top-down approach</li>
+                    </ul>
+                    <br>
+                    <button> Confirm Reservation </button>
+                </form>
+            </section>
+        </div>
     </div>
 
     <footer class = "round-container blue-container">
