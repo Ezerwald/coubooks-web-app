@@ -147,7 +147,7 @@ footer{
 }
 
 .course-list ul{
-    list-style: circle;
+    list-style: initial;
     margin-left: 20px;
 }
 
