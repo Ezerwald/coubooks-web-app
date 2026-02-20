@@ -18,6 +18,11 @@ body{
     margin: 0 auto;
 }
 
+em{
+    font-style: normal;
+    font-weight: bold;
+}
+
 h1, h2, h3, h4{
     font-weight: 400;
 }
@@ -27,7 +32,7 @@ ul{
 }
 
 button {
-    background-color: #126f97; /* Match your theme */
+    background-color: #126f97;
     color: white;
     border: none;
     padding: 12px 25px;
@@ -36,6 +41,7 @@ button {
     cursor: pointer;
     transition: background 0.3s ease;
     border-radius: 5px;
+    font-size: 17px;
 }
 
 button:hover {
