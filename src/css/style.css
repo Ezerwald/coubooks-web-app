@@ -12,21 +12,45 @@ html, body {
 
 body{
     font-family: 'Dosis', sans-serif;
-    font-weight: 300;
+    font-weight: 400;
     background-color: #cbeeff;
     letter-spacing: 2px;
     margin: 0 auto;
+}
+
+h1, h2, h3, h4{
+    font-weight: 400;
 }
 
 ul{
     list-style: none;
 }
 
+button{
+    border-radius: 8px;
+    border-width: 2px;
+    border-color: dimgrey;
+    padding: 10px;
+}
+
+select{
+    border-radius: 8px;
+    border-width: 2px;
+    border-color: dimgrey;
+    padding: 5px;
+}
+
+input{
+    border-radius: 3px;
+    border-width: 2px;
+    border-color: dimgrey;
+}
+
 .main-wrapper{
     display: flex;
     flex-direction: column;
     height: 100%;
-    width: 60vw;
+    width: 90%;
     max-width: 1100px;
     margin: 0 auto;
     padding: 20px 0;
@@ -45,17 +69,13 @@ ul{
 
 .white-container{
     background-color: white;
-    color: black;
+    color: dimgrey;
 }
 
 header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-h1, h2{
-    font-weight: 300;
 }
 
 .logo h1{
@@ -121,6 +141,7 @@ footer{
 
 
 /* COURSES PAGE*/
+
 .course-list h2{
     margin-top: 20px;
 }
@@ -131,14 +152,48 @@ footer{
 }
 
 
-@media (max-width: 600px) {
-    header {
-        flex-direction: column; /* Stack Logo and Nav vertically */
-        text-align: center;
+/* RESERVATION PAGE*/
+
+.reservation-wizard{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.step-header{
+    margin-bottom: 10px;
+}
+
+.step-header h3{
+    color: gray;
+}
+
+.reservation-wizard ul{
+    list-style: initial;
+    margin-left: 30px;
+}
+
+@media (max-width: 800px) {
+
+    .main-wrapper {
+        width: 95%;
     }
 
-    ul {
-        justify-content: center; /* Center the links when stacked */
-        gap: 10px;               /* Tighten gap for small screens */
+    header {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .logo h2 {
+        margin: 0;
+    }
+
+    nav ul {
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .main-section {
+        flex-direction: column;
     }
 }
