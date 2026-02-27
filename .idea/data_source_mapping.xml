@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourcePerFileMappings">
+    <file url="file://$APPLICATION_CONFIG_DIR$/consoles/db/5ba37445-7420-47e1-898f-a6445b02e6d6/console.sql" value="5ba37445-7420-47e1-898f-a6445b02e6d6" />
+    <file url="file://$APPLICATION_CONFIG_DIR$/consoles/db/5ba37445-7420-47e1-898f-a6445b02e6d6/console_1.sql" value="5ba37445-7420-47e1-898f-a6445b02e6d6" />
+    <file url="file://$PROJECT_DIR$/../Lab_2/SEWT_Lab2_code/db_create.sql" value="5ba37445-7420-47e1-898f-a6445b02e6d6" />
+    <file url="file://$PROJECT_DIR$/../Lab_2/SEWT_Lab2_code/db_insert_data_v2.sql" value="5ba37445-7420-47e1-898f-a6445b02e6d6" />
+  </component>
+</project>
