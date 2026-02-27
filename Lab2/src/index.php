@@ -10,20 +10,24 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+<?php
+
+use classes\Greeter;
+
+require_once 'classes/Greeter.php';
+$greeter = new Greeter();
+?>
 <div class = "main-wrapper">
     <div class = "round-container blue-container">
         <header>
             <div class = "logo">
                 <h1>COUBOOKS</h1>
                 <h2>A WEBTECH DEMO SITE</h2>
-                <?php
-                    echo "hello";
-                ?>
             </div>
 
             <nav>
                 <ul>
-                    <li><a href="index.html"><em>Home</em></a></li>
+                    <li><a href="index.php"><em>Home</em></a></li>
                     <li><a href="courses.php">Courses</a></li>
                     <li><a href="reservation.php">Reservation</a></li>
                     <li><a href="about.php">About</a></li>
@@ -34,7 +38,7 @@
 
     <div class = "main-section round-container white-container">
         <section>
-            <h1>Welcome to the CouBooks website</h1>
+            <h1><?= $greeter->getGreeting() ?></h1>
             <h2>Are you ready to study?</h2>
             <p>When in need of a course book you should have a look at out course book website for EA.
                 Here you can find an overview of all course material that is needed for every course within the EA program.
