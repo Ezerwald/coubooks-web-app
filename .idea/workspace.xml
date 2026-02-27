@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="62d7a795-4f4d-4fd4-b84e-8199afbfdbf1" name="Changes" comment="feat: Update titles in reservation.html">
+      <change afterPath="$PROJECT_DIR$/Lab2/src/about.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab2/src/courses.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab2/src/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab2/src/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab2/src/reservation.php" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="39cOKjT7yoC556nYATQysvxoBj9" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.reservation.html.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/kyshc/Study/Semester_6/SoftwareAndWeb/Labs/2526-r1124980-vladyslav-kyshchun&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.webide.settings.project.settings.php&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\kyshc\Study\Semester_6\SoftwareAndWeb\Labs\2526-r1124980-vladyslav-kyshchun\src" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-2fc7cc6b9a17-intellij.indexing.shared.core-IU-253.30387.90" />
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-IU-253.30387.90" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="62d7a795-4f4d-4fd4-b84e-8199afbfdbf1" name="Changes" comment="" />
+      <created>1770991830489</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1770991830489</updated>
+      <workItem from="1770991831880" duration="10149000" />
+      <workItem from="1771420808117" duration="362000" />
+      <workItem from="1771592748207" duration="10019000" />
+      <workItem from="1771606096164" duration="196000" />
+      <workItem from="1771863517008" duration="129000" />
+    </task>
+    <task id="LOCAL-00001" summary="feat: Create index.cs">
+      <option name="closed" value="true" />
+      <created>1770992629778</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1770992629778</updated>
+    </task>
+    <task id="LOCAL-00002" summary="feat: Add header with logo and navigation">
+      <option name="closed" value="true" />
+      <created>1770996482085</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1770996482085</updated>
+    </task>
+    <task id="LOCAL-00003" summary="feat: Add styling for header">
+      <option name="closed" value="true" />
+      <created>1770996509118</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1770996509118</updated>
+    </task>
+    <task id="LOCAL-00004" summary="feat: Add main section of home page">
+      <option name="closed" value="true" />
+      <created>1771000998572</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1771000998572</updated>
+    </task>
+    <task id="LOCAL-00005" summary="feat: Add courses page">
+      <option name="closed" value="true" />
+      <created>1771001008534</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1771001008534</updated>
+    </task>
+    <task id="LOCAL-00006" summary="feat: Add reservation wizard">
+      <option name="closed" value="true" />
+      <created>1771596933798</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1771596933798</updated>
+    </task>
+    <task id="LOCAL-00007" summary="feat: Fill about page">
+      <option name="closed" value="true" />
+      <created>1771597230153</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1771597230153</updated>
+    </task>
+    <task id="LOCAL-00008" summary="feat: Add emphasising to pages in nav">
+      <option name="closed" value="true" />
+      <created>1771597268014</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1771597268014</updated>
+    </task>
+    <task id="LOCAL-00009" summary="feat: Optimize reservation page for phone ratio">
+      <option name="closed" value="true" />
+      <created>1771599677096</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1771599677096</updated>
+    </task>
+    <task id="LOCAL-00010" summary="fix: Checkboxes displaying in small screen width">
+      <option name="closed" value="true" />
+      <created>1771600270254</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1771600270254</updated>
+    </task>
+    <task id="LOCAL-00011" summary="feat: Improve styling for inputs">
+      <option name="closed" value="true" />
+      <created>1771600874033</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1771600874033</updated>
+    </task>
+    <task id="LOCAL-00012" summary="feat: Add &quot;Next&quot; buttons for reservation">
+      <option name="closed" value="true" />
+      <created>1771601229292</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1771601229292</updated>
+    </task>
+    <task id="LOCAL-00013" summary="feat: Update titles in reservation.html">
+      <option name="closed" value="true" />
+      <created>1771603341060</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1771603341060</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat: Create index.cs" />
+    <MESSAGE value="feat: Add header with logo and navigation" />
+    <MESSAGE value="feat: Add styling for header" />
+    <MESSAGE value="feat: Add main section of home page" />
+    <MESSAGE value="feat: Add courses page" />
+    <MESSAGE value="feat: Add reservation wizard" />
+    <MESSAGE value="feat: Fill about page" />
+    <MESSAGE value="feat: Add emphasising to pages in nav" />
+    <MESSAGE value="feat: Optimize reservation page for phone ratio" />
+    <MESSAGE value="fix: Checkboxes displaying in small screen width" />
+    <MESSAGE value="feat: Improve styling for inputs" />
+    <MESSAGE value="feat: Add &quot;Next&quot; buttons for reservation" />
+    <MESSAGE value="feat: Update titles in reservation.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: Update titles in reservation.html" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
