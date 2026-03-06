@@ -1,7 +1,5 @@
 <?php
 
-namespace classes;
-
 class Feedback
 {
     private ?int $id;

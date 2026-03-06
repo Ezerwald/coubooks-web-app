@@ -13,9 +13,9 @@
 <?php
 # Add Greeter
 use classes\Greeter;
-require_once 'classes/Greeter.php';
-$greeter = new Greeter();
 
+require_once 'classes/Greeter.php';  // No use
+$greeter = new Greeter();
 
 # Connect MySQL DB
 $env = parse_ini_file(__DIR__ . '/../.env');
@@ -29,10 +29,8 @@ try{
 }
 
 # Load Feedbacks
-use classes\Feedback;
+require_once 'classes/Feedback.php';  // Simple!
 $feedbacks = Feedback::getAll($pdo);
-
-
 ?>
 
 <div class = "main-wrapper">
@@ -75,6 +73,17 @@ $feedbacks = Feedback::getAll($pdo);
 
             <div>
                 <h2>Feedback</h2>
+                <?php if (empty($feedbacks)): ?>
+                    <p>No feedback yet. <em>Share your thoughts!</em></p>
+                <?php else: ?>
+                    <?php foreach ($feedbacks as $feedback): ?>
+                        <div class="feedback-item">
+                            <span class="feedback-author"><?= htmlspecialchars($feedback->getAuthor()) ?></span>:
+                            <?= htmlspecialchars($feedback->getText()) ?>
+                            <div class="feedback-date"><?= $feedback->getCreated() ?></div>
+                        </div>
+                    <?php endforeach; ?>
+                <?php endif; ?>
             </div>
         </aside>
     </div>
