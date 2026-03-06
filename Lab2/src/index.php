@@ -11,12 +11,30 @@
 </head>
 <body>
 <?php
-
+# Add Greeter
 use classes\Greeter;
-
 require_once 'classes/Greeter.php';
 $greeter = new Greeter();
+
+
+# Connect MySQL DB
+$env = parse_ini_file(__DIR__ . '/../.env');
+
+try{
+    $pdo = new PDO("mysql:host=" . $env['DB_HOST'] . ";dbname=" . $env['DB_NAME'] . ";charset=utf8mb4",
+            $env['DB_USER'],
+            $env['DB_PASS']);
+} catch (PDOException $e){
+    die('DB connection failed: ' . $e->getMessage());
+}
+
+# Load Feedbacks
+use classes\Feedback;
+$feedbacks = Feedback::getAll($pdo);
+
+
 ?>
+
 <div class = "main-wrapper">
     <div class = "round-container blue-container">
         <header>
@@ -57,7 +75,6 @@ $greeter = new Greeter();
 
             <div>
                 <h2>Feedback</h2>
-                <p> The concept is awesome! Website is very user-friendly and helpful!</p>
             </div>
         </aside>
     </div>
