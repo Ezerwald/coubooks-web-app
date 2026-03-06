@@ -5,6 +5,14 @@
     line-height: 1.2;
 }
 
+:root {
+    --primary-bg-color: #cbeeff;
+    --primary-fg-color: #126f97;
+    --secondary-fg-color: white;
+    --primary-text-color: dimgray;
+    --secondary-text-color: gray;
+}
+
 html, body {
     height: 100%;
     margin: 0;
@@ -13,7 +21,7 @@ html, body {
 body{
     font-family: 'Dosis', sans-serif;
     font-weight: 400;
-    background-color: #cbeeff;
+    background-color: var(--primary-bg-color);
     letter-spacing: 2px;
     margin: 0 auto;
 }
@@ -32,7 +40,7 @@ ul{
 }
 
 button {
-    background-color: #126f97;
+    background-color: var(--primary-fg-color);
     color: white;
     border: none;
     padding: 12px 25px;
@@ -55,8 +63,8 @@ select {
     padding: 10px 15px;
     font-family: inherit;
     font-size: 1rem;
-    color: dimgrey;
-    border: 2px solid #126f97;
+    color: var(--primary-text-color);
+    border: 2px solid var(--primary-fg-color);
     border-radius: 8px;
     background-color: white;
     cursor: pointer;
@@ -65,7 +73,7 @@ select {
 input{
     border-radius: 3px;
     border-width: 2px;
-    border-color: dimgrey;
+    border-color: var(--primary-text-color);
     padding: 2px;
 }
 
@@ -86,13 +94,13 @@ input{
 }
 
 .blue-container{
-    background-color: #126f97;
+    background-color: var(--primary-fg-color);
     color: white;
 }
 
 .white-container{
     background-color: white;
-    color: dimgrey;
+    color: var(--primary-text-color);
 }
 
 header{
@@ -160,7 +168,23 @@ footer{
     gap: 20px;
 }
 
+.feedback-item {
+    margin-bottom: 12px;
+    padding: 10px;
+    border-left: 4px solid var(--primary-fg-color);
+    background: var(--secondary-fg-color);
+}
 
+.feedback-author {
+    font-weight: bold;
+    color: var(--primary-fg-color);
+}
+
+.feedback-date {
+    font-size: 0.85em;
+    color: var(--primary-text-color);
+    margin-top: 4px;
+}
 
 /* COURSES PAGE*/
 
@@ -187,7 +211,7 @@ footer{
 }
 
 .step-header h3{
-    color: gray;
+    color: var(--secondary-text-color);
 }
 
 .confirm-reservation ul{
@@ -216,7 +240,7 @@ input[type="email"]{
     padding: 10px 15px;
     font-family: inherit;
     font-size: 1rem;
-    color: dimgrey;
+    color: var(--primary-text-color);
     border: 2px solid #126f97;
     border-radius: 8px;
     background-color: white
