@@ -186,6 +186,20 @@ footer{
     margin-top: 4px;
 }
 
+.feedback-input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-family: inherit;
+}
+
+.feedback-input textarea {
+    height: 80px;
+    resize: vertical;
+}
+
 /* COURSES PAGE*/
 
 .course-list h2{

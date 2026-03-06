@@ -29,8 +29,20 @@ try{
 }
 
 # Load Feedbacks
-require_once 'classes/Feedback.php';  // Simple!
+require_once 'classes/Feedback.php';
 $feedbacks = Feedback::getAll($pdo);
+
+# Check if form submitted
+if (isset($_POST['submit_feedback'])) {
+    $newFeedback = new Feedback([
+            'text' => $_POST['feedback_text'],
+            'author' => $_POST['feedback_author']
+    ]);
+    if ($newFeedback->save($pdo)) {
+        header('Location: index.php');
+        exit;
+    }
+}
 ?>
 
 <div class = "main-wrapper">
@@ -84,6 +96,24 @@ $feedbacks = Feedback::getAll($pdo);
                         </div>
                     <?php endforeach; ?>
                 <?php endif; ?>
+
+                <form method="POST" style="margin-top: 15px;">
+                    <input type="text"
+                           name="feedback_author"
+                           placeholder="Your Name *"
+                           required
+                           class="feedback-input">
+
+                    <textarea name="feedback_text"
+                              placeholder="Your feedback..."
+                              required
+                              class="feedback-input"></textarea>
+
+                    <button type="submit" name="submit_feedback">
+                        Add Feedback
+                    </button>
+                </form>
+
             </div>
         </aside>
     </div>

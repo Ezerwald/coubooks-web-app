@@ -5,13 +5,13 @@ class Feedback
     private ?int $id;
     private string $text;
     private string $author;
-    private string $created;
+    private ?string $created = '';
 
     public function __construct(array $data) {
         $this->id = $data['id'] ?? null;
         $this->text = $data['text'];
         $this->author = $data['author'];
-        $this->created = $data['created'];
+        $this->created = $data['created'] ?? date('Y-m-d H:i:s');;
     }
 
     public function getId(): ?int { return $this->id; }
@@ -28,4 +28,14 @@ class Feedback
         }
         return $results;
     }
+
+    public function save(PDO $pdo): bool {
+        $stmt = $pdo->prepare("INSERT INTO feedback (text, author, created) VALUES (?, ?, NOW())");
+        $result = $stmt->execute([$this->text, $this->author]);
+        if ($result) {
+            $this->id = $pdo->lastInsertId();  // Get new ID
+        }
+        return $result;
+    }
+
 }
