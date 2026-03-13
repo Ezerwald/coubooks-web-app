@@ -23,7 +23,7 @@
           <li><a href="index.php">Home</a></li>
           <li><a href="courses.php">Courses</a></li>
           <li><a href="reservation.php">Reservation</a></li>
-          <li><a href="about.html"><em>About</em></a></li>
+          <li><a href="about.php"><em>About</em></a></li>
         </ul>
       </nav>
     </header>

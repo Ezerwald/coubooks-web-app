@@ -21,7 +21,7 @@
             <nav>
                 <ul>
                     <li><a href="index.php">Home</a></li>
-                    <li><a href="courses.html"><em>Courses</em></a></li>
+                    <li><a href="courses.php"><em>Courses</em></a></li>
                     <li><a href="reservation.php">Reservation</a></li>
                     <li><a href="about.php">About</a></li>
                 </ul>
