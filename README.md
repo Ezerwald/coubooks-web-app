@@ -8,6 +8,8 @@ Software Engineering & Web Technologies course at KU Leuven.
 > no real purchasing or payment processing is implemented.
 
 ---
+<img width="920" height="821" alt="image" src="https://github.com/user-attachments/assets/62fcf8ad-152e-40ef-b9c2-a55802424716" />
+
 
 ## Features
 
