@@ -2,7 +2,7 @@
 
 A full-stack web application for university students to browse and reserve
 study books for their courses. Built across two lab sessions as part of the
-Software Engineering & Web Technologies course at KU Leuven (Spring 2026).
+Software Engineering & Web Technologies course at KU Leuven.
 
 > Note: This is a coursework project. Book reservation is interface-only —
 > no real purchasing or payment processing is implemented.
